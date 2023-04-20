@@ -131,6 +131,11 @@ p {
   margin: 0 0 15px;
   line-height: 27px; }
 
+ul.a {
+  list-style-type: square;
+  font-size: large;
+}
+
 hr {
   margin: 0; }
 
