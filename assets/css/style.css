@@ -84,6 +84,19 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin: 0 0 20px; }
 
+  /* For fun */
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
 /* custom send button */
 .message {
   float: left;
