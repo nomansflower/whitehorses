@@ -829,11 +829,12 @@ textarea, select {
           box-shadow: none; }
         .header-section .top-bar .header-right-bar .access li #search-modeal .search-bar .subscribeBtn {
           font-size: 16px;
+          
           padding: 4px 35px;
           border-radius: 5px; }
 .header-section .to-top {
   min-height: 80px;
-  line-height: 80px;
+  line-height: 80px; 
   background-color: #30343a; }
   .header-section .to-top .header-left-bar .country {
     padding-right: 30px; }

@@ -21,6 +21,8 @@
         <link href="assets/css/offcanvas-menu.css" rel="stylesheet" type="text/css">
         <!-- style-css -->
         <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+        <!-- php for contactUs -->
+        <link href=""
 
     </head>
     <body class="" id="page-top" data-spy="scroll" data-target=".navbar">
@@ -887,44 +889,23 @@
             </div>
         </section> <!-- testimonial-section -->
 
-        <div class="container"><!-- Contact Us Form -->
-            <div class="row">
-                <h1>Contact Us</h1>
-            </div>
-            <div class="row">
-                <h4 style="text-align:center">We'd love to hear from you!</h4>
-            </div>
-            <div class="row input-container">
-                <div class="col-xs-12">
-                    <div class="styled-input-container">
-                        <input type="text" required />
-                        <label>Name</label>
-                    </div>
+        <div class="form-container"><!-- Contact Us Form -->
+            <form action="contact.php" method="post">
+                <div class="elem-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="visitor_name" plaveholder="John Doe" patttern=[A-Z\sa-z]{3,20} required>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="styled-input">
-                        <input type="text" required />
-                        <label>Email</label>
-                    </div>
+                <div class="elem-group">
+                    <label for="email">Your Email</label>
+                    <input for="email" id="email" name="visitor_email" placeholder="nomani.tuitavuki@gmail.com" required>
                 </div>
-                <div class="col-md-6 col-sm-12">
-                    <div class="styled-input" style="float:right;">
-                    <input type="text" reauired />
-                    <label>Phone Number</label>
+                <div class="elem-group">
+                    <label for="message">Write your Message</label>
+                    <textarea id="message" name="visitor_message" placeholder="Say whatever you want." required></textarea>
                 </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="styled-input wide">
-                        <textarea required></textarea>
-                        <label>Description of what you want done</label>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                        <div class="btn-lrg submit-btn">Send Message</div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                <button type="submit">Send Message</button>
+            </form>
+            
         <!-- Contact Us Ends -->
 
 
