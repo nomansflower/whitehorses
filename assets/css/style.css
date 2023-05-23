@@ -1886,7 +1886,7 @@ textarea, select {
     .growing-section .content-wrapper .btn {
       margin-bottom: 5px; } }
 .growing-section .caption {
-  overflow: hidden; }
+  overflow: show; }
   .growing-section .caption img {
     width: 100%; }
 
